@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <title>Mishka</title>
+  <meta mame="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/1.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <nav class="header__top-menu">
+      <a class="header__top-menu--catalog" href="#">Каталог товаров</a> 
+      <img class="header__top-menu--vertical-devider" src="img/vertical-devider.svg" alt="разделитель"/>
+      <a class="header__top-menu--knitting-to-order" href="#">Вязание на заказ</a>
+      <img class="header__top-menu--logo" src="img/desktop-logo.svg" alt="логотип"/>
+      <img class="header__top-menu--vertical-devider" src="img/vertical-devider.svg" alt="разделитель"/>
+      <a>
+        <img src="img/search.svg" alt="поиск" class="header__top-menu--search"/>
+      </a>
+      <img class="header__top-menu--vertical-devider" src="img/vertical-devider.svg" alt="разделитель"/>
+      <a class="header__top-menu--basket" href="#">
+        <img src="img/cart.svg" alt="корзина" class="header__top-menu--basket-logo"/>
+        <p class="header__top-menu--basket-text">Корзина:пока пуста</p>
+      </a>
+      <img class="header__top-menu--horizontal-devider" src="img/horizontal-devider.svg" alt="разделитель"/>
+      <a class="header__top-menu--new-arrivals" href="#">Новые поступления</a>
+      <a class="header__top-menu--sale" href="#">Распродажа</a>
+      <p class="header__top-menu--delivery">Бесплатная доставка по России</p>
+    </nav>
+  </div>
+
+  <div class="main">
+    <picture class="main__back-ground">
+         <source type="image/webp" media="(min-width: 1200px)" srcset="img/header-back-desktop-tablet-1x.webp 1x, img/header-back-desktop-tablet-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 768px)" srcset="img/header-back-desktop-tablet-1x.webp 1x, img/header-back-desktop-tablet-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 320px)" srcset="img/header-back-mobile-1x.webp 1x, img/header-back-mobile-2x.webp 2x">
+       </picture>
+    <p class="main__header">Милые штучки ручной работы для дома</p>
+    <img class="main__green-back-left" src="img/green-back-left.svg" alt="левый зеленый фон"/>
+    <img class="main__green-back-right" src="img/green-back-right.svg" alt="правый зеленый фон"/>
+    <img class="main__white-zigzag" src="img/zigzag-fill-desktop.svg" alt="зигзаг"/>
+    <p class="main__left-info--text">Предметы интерьера</p>
+    <img class="main__left-info--image" src="img/lamp.svg" alt="лампа"/>
+    <p class="main__right-info--text">Детские игрушки</p>
+    <img class="main__right-info--image" src="img/toy.svg" alt="игрушка"/>
+    <div class="main__recommended">     
+      <img class="main__recommended--logo" src="img/rec-logo.svg" alt="товар недели"/>
+      <p class="main__recommended--header">Вязаные корзинки</p>
+      <p class="main__recommended--text">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трёх размерах.</p>
+      <p class="main__recommended--color-text">Цвет: Диаметр: Высота:</p>
+      <p class="main__recommended--color">«Тиффани»/серый 25 см 15 см</p>
+      <p class="main__recommended--price">Цена: 990 руб.</p>
+      <button class="main__recommended--button">Заказать</button>
+      <picture class="main__recommended--image">
+         <source type="image/webp" media="(min-width: 1200px)" srcset="img/three-baskets-desktop-1x.webp 1x, img/three-baskets-desktop-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 768px)" srcset="img/three-baskets-tablet-1x.webp 1x, img/three-baskets-tablet-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 320px)" srcset="img/three-baskets-mobile-1x.webp 1x, img/three-baskets-mobile-2x.webp 2x">
+       </picture>
+      <img class="main__recommended--devider" src="img/devider.svg" alt="разделитель"/>
+    </div> 
+    <div class="main__about-us">
+      <p class="main__about-us--header">Коротко о нас:</p>
+      <img class="main__about-us--logo" src="img/flower.svg" alt="цветок"/>
+      <p class="main__about-us--text">Экологически чистые материалы</p>
+      <img class="main__about-us--logo" src="img/tangle.svg" alt="клубок"/>
+      <p class="main__about-us--text">Связано вручную с любовью и умилением</p>
+      <img class="main__about-us--logo" src="img/bill.svg" alt="купюра"/>
+      <p class="main__about-us--text">Скандинавский стиль по российской цене</p>
+      <img class="main__about-us--logo" src="img/rocket.svg" alt="ракета"/>
+      <p class="main__about-us--text">Поддержка отечественного производителя</p>
+      <img class="main__about-us--logo" src="img/heart.svg" alt="сердце"/>
+      <p class="main__about-us--text">Увеличиает лайки на фотографиях</p>
+      <img class="main__about-us--logo" src="img/gift.svg" alt="подарок"/>
+      <p class="main__about-us--text">Поставляется в подарочной упаковке</p>
+    </div>
+    <div class="main__reviews">
+      <picture class="main__reviews--image">
+         <source type="image/webp" media="(min-width: 1200px)" srcset="img/review-1x.webp 1x, img/review-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 768px)" srcset="img/review-1x.webp 1x, img/review-2x.webp 2x">
+         <!--<source type="image/webp" media="(min-width: 320px)" srcset="img/three-baskets-mobile-1x.webp 1x, img/three-baskets-mobile-2x.webp 2x">-->
+       </picture>
+      <p class="main__about-us--text">
+      <p class="main__reviews--header">Отзывы</p>
+      <button class="main__reviews--button">написать</button>
+      <p class="main__reviews--text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+      <p class="main__reviews--name">Анастасия Красильникова @misssssiskras</p>
+      <img class="main__reviews--arrow" src="img/arrow-left.svg" alt="левая стрелка"/>
+      <img class="main__reviews--arrow" src="img/arrow-right.svg" alt="правая стрелка"/>
+      <img class="main__reviews--devider" src="img/devider.svg" alt="разделитель"/>
+    </div> 
+    <div class="main__contacts">
+      <img class="main__contacts--logo" src="img/flag.svg" alt="флаг"/>
+      <p class="main__contacts--header"></p>
+      <p class="main__contacts--info">e-mail: адрес:</p>
+      <p class="main__contacts--e-mail">info@mimimishkashop.ru<img class="main__contacts--e-mail-devider" src="img/contacts-devider.svg" alt="разделитель"/>г. Санкт-Петербург ул. Большая Конюшенная д. 19/8, офис 101</p>
+      <button class="main__contacts--button">напишите нам</button>
+      <picture class="main__contacts--map">
+         <source type="image/webp" media="(min-width: 1200px)" srcset="img/map-desktop-1x.webp 1x, img/map-desktop-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 768px)" srcset="img/map-tablet-1x.webp 1x, img/map-tablet-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 320px)" srcset="img/map-mobile-1x.webp 1x, img/map-mobile-2x.webp 2x">
+       </picture>
+      <img class="main__contacts--map-pin" src="img/map-pin.svg" alt="отметка"/>
+    </div>  
+  </div> 
+  <footer>
+    <div class="footer__info">
+      <img class="footer__info--logo" src="img/logo-footer.svg" alt="логотип"/>
+      <p class="footer__info--developed-by">Разработано</p>
+      <img class="footer__info--developed-by-logo" src="img/htmlacademy.svg" alt="логотип html"/>
+    </div>  
+  </footer>   
+</body>  

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <title>Mishka</title>
+  <meta mame="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/1.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <nav class="header__top-menu">
+      <a class="header__top-menu--catalog" href="#">Каталог товаров</a> 
+      <img class="header__top-menu--vertical-devider" src="img/vertical-devider.svg" alt="разделитель"/>
+      <a class="header__top-menu--knitting-to-order" href="#">Вязание на заказ</a>
+      <img class="header__top-menu--logo" src="img/desktop-logo.svg" alt="логотип"/>
+      <img class="header__top-menu--vertical-devider" src="img/vertical-devider.svg" alt="разделитель"/>
+      <a>
+        <img src="img/search.svg" alt="поиск" class="header__top-menu--search"/>
+      </a>
+      <img class="header__top-menu--vertical-devider" src="img/vertical-devider.svg" alt="разделитель"/>
+      <a class="header__top-menu--basket" href="#">
+        <img src="img/cart.svg" alt="корзина" class="header__top-menu--basket-logo"/>
+        <p class="header__top-menu--basket-text">Корзина:пока пуста</p>
+      </a>
+      <img class="header__top-menu--horizontal-devider" src="img/horizontal-devider.svg" alt="разделитель"/>
+      <a class="header__top-menu--new-arrivals" href="#">Новые поступления</a>
+      <a class="header__top-menu--sale" href="#">Распродажа</a>
+      <p class="header__top-menu--delivery">Бесплатная доставка по России</p>
+    </nav>
+    <p class="header__top-menu--header">Вязание на заказ</p>
+    <img class="header__top-menu--background" src="img/grey-back-ctl.svg" alt="серый фон"/>
+    <img class="header__top-menu--__white-zigzag" src="img/zigzag-fill-desktop.svg" alt="зигзаг"/>
+  </div>
+  <div class="main">
+    <div class="main__form">
+      <p class="main__form--text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму<br>заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+    </div> 
+    <div class="main__type">
+      <p class="main__type--logo">тип</p>
+      <input type="radio" id="type1" value="type1">
+      <label for="type1">Аксессуар для интерьера</label>
+      <input type="radio" id="type2" value="type2">
+      <label for="type2">Детская игрушка</label>
+    </div> 
+    <div class="main__color">
+      <p class="main__color--logo">цвет</p>
+      <input type="checkbox" id="color1" value="color1">
+      <label for="color1">Белый</label>   <!--картинка галочки называется tick.svg-->
+      <input type="checkbox" id="color2" value="color2">
+      <label for="color2">Серый</label>
+      <input type="checkbox" id="color3" value="color3">
+      <label for="color3">"Тиффани"</label>
+      <input type="checkbox" id="color4" value="color4">
+      <label for="color4">Черный</label>
+      <input type="checkbox" id="color5" value="color5">
+      <label for="color5">Розовый</label>
+      <input type="checkbox" id="color6" value="color6">
+      <label for="color6">Оранжевый</label>
+    </div>  
+    <div class="main__name">
+      <p class="main__name--logo">ФИО</p>
+      <label for="name">Имя:</label>
+      <input type="text" id="name">
+      <label for="surname">Фамилия:</label>
+      <input type="text" id="surname">
+      <label for="patronymic">Отчество:</label>
+      <input type="text" id="patronymic">
+    </div> 
+    <div class="main__info">
+      <p class="main__info--phone">тел</p>
+      <input type="text" id="phone">
+      <img class="main__info--phone-logo" src="img/phone-logo.svg" alt="логотип"/>
+      <p class="main__info--mail">E-MAIL</p>
+      <input type="text" id="mail">
+      <img class="main__info--mail-logo" src="img/mail-logo.svg" alt="логотип"/>
+    </div> 
+    <div class="main__addition">
+      <p class="main__addition--logo">доп</p>
+      <input type="text" id="addition">
+      <button class="main__addition--button">отправить заказ</button>
+      <p class="main__addition--text">*Поля обязательны для заполнения</p>
+    </div>
+
+  </div>  
+
+  <footer>
+    <div class="footer__info">
+      <img class="footer__info--logo" src="img/logo-footer.svg" alt="логотип"/>
+      <p class="footer__info--developed-by">Разработано</p>
+      <img class="footer__info--developed-by-logo" src="img/htmlacademy.svg" alt="логотип html"/>
+    </div>  
+  </footer>   
+</body>  

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <title>Mishka</title>
+  <meta mame="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/1.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <nav class="header__top-menu">
+      <a class="header__top-menu--catalog" href="#">Каталог товаров</a> 
+      <img class="header__top-menu--vertical-devider" src="img/vertical-devider.svg" alt="разделитель"/>
+      <a class="header__top-menu--knitting-to-order" href="#">Вязание на заказ</a>
+      <img class="header__top-menu--logo" src="img/desktop-logo.svg" alt="логотип"/>
+      <img class="header__top-menu--vertical-devider" src="img/vertical-devider.svg" alt="разделитель"/>
+      <a>
+        <img src="img/search.svg" alt="поиск" class="header__top-menu--search"/>
+      </a>
+      <img class="header__top-menu--vertical-devider" src="img/vertical-devider.svg" alt="разделитель"/>
+      <a class="header__top-menu--basket" href="#">
+        <img src="img/cart.svg" alt="корзина" class="header__top-menu--basket-logo"/>
+        <p class="header__top-menu--basket-text">Корзина:пока пуста</p>
+      </a>
+      <img class="header__top-menu--horizontal-devider" src="img/horizontal-devider.svg" alt="разделитель"/>
+      <a class="header__top-menu--new-arrivals" href="#">Новые поступления</a>
+      <a class="header__top-menu--sale" href="#">Распродажа</a>
+      <p class="header__top-menu--delivery">Бесплатная доставка по России</p>
+    </nav>
+    <p class="header__top-menu--header">Каталог товаров</p>
+    <img class="header__top-menu--background" src="img/grey-back-ctl.svg" alt="серый фон"/>
+    <img class="header__top-menu--__white-zigzag" src="img/zigzag-fill-desktop.svg" alt="зигзаг"/>
+  </div>
+  <div class="main">
+    <div class="main__products">
+      <picture class="main__products--bunny">
+         <source type="image/webp" media="(min-width: 1200px)" srcset="img/video-desktop-1x.webp 1x, img/video-desktop-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet-1x.webp 1x, img/video-tablet-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 320px)" srcset="img/video-mobile-1x.webp 1x, img/video-mobile-2x.webp 2x">
+       </picture>
+      <img class="main__products--background" src="img/item-back.svg" alt="фон"/>
+      <p class="main__products--header">Зайчик-попрыгайчик</p>
+      <p class="main__products--info">Рост 30 см, вес 200 г</p>
+      <img class="main__products--divider" src="img/divider-ctl.svg" alt="разделитель"/>
+      <p class="main__products--price">1 200 руб.</p>
+      <img src="img/cart.svg" alt="корзина" class="main__products--basket-logo"/>
+      <picture class="main__products--basket">
+         <source type="image/webp" media="(min-width: 1200px)" srcset="img/basket-desktop-1x.webp 1x, img/basket-desktop-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 768px)" srcset="img/basket-tablet-1x.webp 1x, img/basket-tablet-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 320px)" srcset="img/basket-mobile-1x.webp 1x, img/basket-mobile-2x.webp 2x">
+       </picture>
+      <img class="main__products--background" src="img/item-back.svg" alt="фон"/>
+      <p class="main__products--header">Корзинка для белья</p>
+      <p class="main__products--info">Диаметр 15 см, высота 10 см</p>
+      <img class="main__products--divider" src="img/divider-ctl.svg" alt="разделитель"/>
+      <p class="main__products--price">690 руб.</p>
+      <img src="img/cart.svg" alt="корзина" class="main__products--basket-logo"/>
+      <picture class="main__products--big-basket">
+         <source type="image/webp" media="(min-width: 1200px)" srcset="img/big-basket-desktop-1x.webp 1x, img/big-basket-desktop-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 768px)" srcset="img/big-basket-tablet-1x.webp 1x, img/big-basket-tablet-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 320px)" srcset="img/big-basket-mobile-1x.webp 1x, img/big-basket-mobile-2x.webp 2x">
+       </picture>
+      <img class="main__products--background" src="img/item-back.svg" alt="фон"/>
+      <p class="main__products--header">Большая корзинка<br>для игрушек</p>
+      <p class="main__products--info">Диаметр 30 см, высота 30 см</p>
+      <img class="main__products--divider" src="img/divider-ctl.svg" alt="разделитель"/>
+      <p class="main__products--price">1 500 руб.</p>
+      <img src="img/cart.svg" alt="корзина" class="main__products--basket-logo"/>
+    </div>  
+    <div class="main__process">
+      <picture class="main__process--video">
+         <source type="image/webp" media="(min-width: 1200px)" srcset="img/video-desktop-1x.webp 1x, img/video-desktop-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet-1x.webp 1x, img/main-city-tablet-2x.webp 2x">
+         <source type="image/webp" media="(min-width: 320px)" srcset="img/video-mobile-1x.webp 1x, img/video-mobile-2x.webp 2x">
+       </picture>
+      <img src="img/video-button-play.svg" alt="кнопка" class="main__process--button-play"/>
+      <img src="img/video-logo.svg" alt="камера" class="main__process--logo"/>
+      <p class="main__process--header">Процесс<br>производства</p>
+      <p class="main__process--text">По просьбам наших любимых<br>фолловеров мы сняли для вас<br>подробное видео о том, как<br>появляются наши товары.</p>
+      <button class="main__process--button">Сделать заказ</button>
+    </div>  
+  </div>  
+
+  <footer>
+    <div class="footer__info">
+      <img class="footer__info--background" src="img/grey-back-ctl-footer.svg" alt="серый фон"/>
+      <p class="footer__info--developed-by">Разработано</p>
+      <img class="footer__info--developed-by-logo" src="img/htmlacademy.svg" alt="логотип html"/>
+    </div>  
+  </footer>   
+</body>  
